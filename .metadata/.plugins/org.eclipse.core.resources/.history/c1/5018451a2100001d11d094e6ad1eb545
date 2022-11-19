@@ -1,0 +1,48 @@
+package M0dule2_assignment;
+
+import java.util.Scanner;
+
+public class As16_segregate_all_0_left_and_all_1_right_side {
+
+	public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.print("Enter length of an array : ");
+	int n = sc.nextInt();
+	
+	
+	int[] arr = new int [n];
+	
+	for(int i=0;i<n;i++)
+	{
+		System.out.print("Enter value for "+(i)+" index position : ");
+		arr[i] = sc.nextInt();
+	}
+		System.out.println();
+		System.out.print("Orignal array : ");
+		for(int arr1: arr)
+		{
+			System.out.print(arr1+" ");
+		}
+		
+		System.out.println();
+		
+		System.out.print("After segregation array is : ");
+		for(int i=0;i<n;i++)
+		{
+			for(int j=0;j<i;j++)
+			{
+				if(arr[i]<arr[j])
+				{
+					arr[i] = arr[i]*arr[j];
+					arr[j] = arr[i]/arr[j];
+					arr[i] = arr[i]/arr[j];
+				}
+			}
+			System.out.print(arr[i]+" ");
+		}
+		
+	}
+
+}

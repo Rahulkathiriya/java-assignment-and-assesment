@@ -1,0 +1,13 @@
+package model;
+
+public class employee {
+
+	int id;
+	String fname;
+	String lname;
+	String email;
+	String number;
+	String address;
+	String gender;
+	String password;
+}

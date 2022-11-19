@@ -1,0 +1,9 @@
+package model;
+
+public class employee {
+
+	int id;
+	String fname;
+	String lname;
+	String email;
+}

@@ -1,0 +1,15 @@
+package dao;
+
+import java.sql.Connection;
+
+public class empDao {
+	Connection cn = null;
+	
+	public empDao() {
+
+	   Class.forName("com.mysql.cj.jdbc.Driver")
+	
+	
+	
+	}
+}

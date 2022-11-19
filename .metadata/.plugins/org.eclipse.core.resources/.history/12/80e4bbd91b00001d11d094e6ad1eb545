@@ -1,0 +1,10 @@
+package M0dule2_assignment;
+
+public class As14_Average_value_except_min_max_value {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

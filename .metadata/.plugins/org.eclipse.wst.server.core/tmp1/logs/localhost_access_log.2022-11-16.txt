@@ -1,0 +1,9 @@
+127.0.0.1 - - [16/Nov/2022:15:48:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:48:46 +0530] "GET /web006_ajax_curd_onePage/ HTTP/1.1" 200 7240
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:48:47 +0530] "GET /web006_ajax_curd_onePage/viewData HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:48:50 +0530] "POST /web006_ajax_curd_onePage/update HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:49:00 +0530] "POST /web006_ajax_curd_onePage/addStudent HTTP/1.1" 200 27
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:49:00 +0530] "GET /web006_ajax_curd_onePage/addStudent?uid=7&fname=Rahul&lname=Kathiriya&email=rahul.kathiriya.61%40gmail.com&password=Rahul%40123&number=9865325487&gender=male&city=Amreli HTTP/1.1" 200 29
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:49:02 +0530] "GET /web006_ajax_curd_onePage/viewData HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:49:11 +0530] "GET /web006_ajax_curd_onePage/update?uid=11 HTTP/1.1" 200 14
+0:0:0:0:0:0:0:1 - - [16/Nov/2022:15:49:12 +0530] "GET /web006_ajax_curd_onePage/viewData HTTP/1.1" 200 146

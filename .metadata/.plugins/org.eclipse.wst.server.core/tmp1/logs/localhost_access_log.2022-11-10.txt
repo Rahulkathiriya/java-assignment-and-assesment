@@ -1,0 +1,13 @@
+127.0.0.1 - - [10/Nov/2022:15:10:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:10:09 +0530] "GET /Web005_assignment/ HTTP/1.1" 200 4153
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:10:09 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:11:21 +0530] "GET /Web005_assignment/addStudent?uid=&fname=rahul&lname=kathiriya&email=rahulkathiriya%40gmail.com&password=deni%401234&number=7046962126&gender=male&city=Amreli HTTP/1.1" 200 4174
+127.0.0.1 - - [10/Nov/2022:15:13:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:13:08 +0530] "GET /Web005_assignment/ HTTP/1.1" 200 4153
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:13:23 +0530] "GET /Web005_assignment/addStudent?uid=&fname=rahul&lname=kathiriya&email=rahul%40gmail.com&password=deni%401234&number=7046962126&gender=male&city=Amreli HTTP/1.1" 200 4174
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:13:45 +0530] "GET /Web005_assignment/addStudent?uid=&fname=rahul&lname=kathiriya&email=rahul%40gmail.com&password=Rahul%401234&number=9099986532&gender=male&city=Amreli HTTP/1.1" 200 4174
+127.0.0.1 - - [10/Nov/2022:15:14:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:14:59 +0530] "GET /Web005_assignment/ HTTP/1.1" 200 4153
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:15:10 +0530] "GET /Web005_assignment/addStudent?uid=&fname=rahul&lname=kathiriya&email=rahul%40gmail.com&password=Ravi%401234&number=8866345237&gender=male&city=Amreli HTTP/1.1" 200 4174
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:16:51 +0530] "GET /Web005_assignment/ HTTP/1.1" 200 4153
+0:0:0:0:0:0:0:1 - - [10/Nov/2022:15:17:03 +0530] "GET /Web005_assignment/addStudent?uid=&fname=rahul&lname=kathiriya&email=rahul%40gmail.com&password=121212&number=9099986532&gender=male&city=Amreli HTTP/1.1" 200 4174

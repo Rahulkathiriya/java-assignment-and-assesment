@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;regForm.jsp&apos; to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;Web004_mvc_in _one&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original element: &apos;regForm.jsp&apos;" description="Copy file" element1="src/main/webapp/regForm.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667647259021" target="/Web005_assignment/src/main/webapp" units="0" version="1.0"/>
+</session>

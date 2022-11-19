@@ -1,0 +1,22 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class empDao {
+	Connection cn = null;
+	
+	public empDao() {
+
+	   try {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","")
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+	
+	}
+}

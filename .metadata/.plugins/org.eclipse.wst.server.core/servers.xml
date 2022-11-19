@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost (2)" name="Tomcat v9.0 Server at localhost (2)" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="11">
+    <list key="modules" value0="mvc_practice_curd::org.eclipse.jst.jee.server:mvc_practice_curd::jst.web::4.0" value1="Web_001_mvc_project::org.eclipse.jst.jee.server:Web_001_mvc_project::jst.web::4.0" value2="Web_002_mvc_curd_opreation::org.eclipse.jst.jee.server:Web_002_mvc_curd_opreation::jst.web::4.0" value3="web_002_mvc_curd::org.eclipse.jst.jee.server:web_002_mvc_curd::jst.web::4.0" value4="web_003_mvc_All_In_one::org.eclipse.jst.jee.server:web_003_mvc_All_In_one::jst.web::4.0" value5="Web004_mvc_in _one::org.eclipse.jst.jee.server:Web004_mvc_in _one::jst.web::4.0" value6="Web005_assignment::org.eclipse.jst.jee.server:Web005_assignment::jst.web::4.0" value7="web006_ajax_curd_onePage::org.eclipse.jst.jee.server:web006_ajax_curd_onePage::jst.web::4.0" value8="web007_assesment_employee_Management_System::org.eclipse.jst.jee.server:web007_assesment_employee_Management_System::jst.web::4.0"/>
+  </server>
+</servers>
