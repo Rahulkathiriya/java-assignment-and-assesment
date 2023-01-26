@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.jee.server:Web_002_mvc_curd_opreation" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:Web_001_mvc_project" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:web006_ajax_curd_onePage" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:web007_assesment_employee_Management_System" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Web_hibernate_curd_Using_servlet" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:Web005_assignment" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:web_002_mvc_curd" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:web_003_mvc_All_In_one" serverId="Tomcat v9.0 Server at localhost (2)"/>
-  <module moduleId="org.eclipse.jst.jee.server:web006_ajex_curd" serverId="Tomcat v9.0 Server at localhost (2)"/>
-  <module moduleId="org.eclipse.jst.jee.server:Web004_mvc_in _one" serverId="Tomcat v9.0 Server at localhost (2)"/>
   <module moduleId="org.eclipse.jst.jee.server:mvc_practice_curd" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:sp_003_spring_mvc_curd" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:Web_002_mvc_curd_opreation" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:web006_ajex_curd" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:web008_Image_Uploading" serverId="Tomcat v9.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:Web004_mvc_in _one" serverId="Tomcat v9.0 Server at localhost (2)"/>
 </modules>

@@ -154,90 +154,89 @@ function addStudent(){
 
 		<div class="row">
 			<div class="col col-md-4 col-lg-4">
-				
-					<div class="row">
-						<p class="h2 text-center bg-dark text-light p-2 pb-3 mt-2 rounded">Registreation
-							Form</p>
-						<span class="text-success" id="student"></span> <span
-							class="text-success">${updateMsg}</span> <span
-							class="text-danger">${error}</span>
-						<div class="col">
-							<input type="hidden" name="uid" id="uid"> <label
-								for="fname" class="form-label">Firstname :</label> <input
-								type="text" class="form-control" name="fname" id="fname"
-								placeholder="Enter First Name" required="required"> <span
-								class="text-danger">${fnameError}</span>
-						</div>
 
-
-						<div class="col">
-							<label for="lname" class="form-label">LastName : </label> <input
-								type="text" class="form-control" id="lname" name="lname"
-								placeholder="Enter Last Name " required /> <span
-								class="text-danger">${lnameError}</span>
-						</div>
-					</div>
-					<br />
-					<div class="row">
-
-						<div class="col">
-							<label for="email" class="form-label">Email : </label>
-							<div class="input-group">
-								<input type="text" name="email" id="email"
-									placeholder="Enter Email Hear" class="form-control"
-									required="required">
-							</div>
-							<span class="text-danger">${emailError}</span>
-						</div>
-					</div>
-					<br>
-
-					<div class="row">
-						<div class="col">
-
-							<label for="pass" class="form-label">Password : </label> <input
-								type="text" id="password" name="password" class="form-control"
-								placeholder="Enter Password" required="required"> <span
-								class="text-danger">${passError}</span>
-						</div>
-						<div class="col">
-							<label for="number" class="form-label">number : </label> <input
-								type="text" class="form-control" id="number" name="number"
-								placeholder="Enter mobile Number" required="required"> <span
-								class="text-danger"></span>
-						</div>
-
+				<div class="row">
+					<p class="h2 text-center bg-dark text-light p-2 pb-3 mt-2 rounded">Registreation
+						Form</p>
+					<span class="text-success" id="student"></span> <span
+						class="text-success">${updateMsg}</span> <span class="text-danger">${error}</span>
+					<div class="col">
+						<input type="hidden" name="uid" id="uid"> <label
+							for="fname" class="form-label">Firstname :</label> <input
+							type="text" class="form-control" name="fname" id="fname"
+							placeholder="Enter First Name" required="required"> <span
+							class="text-danger">${fnameError}</span>
 					</div>
 
 
-					<br /> <label for="gender" class="from-label">Gender</label>
-					<div class="form-checked">
-						<input type="radio" class="form-check-input" name="gender"
-							id="gender" value="male" checked="checked" /> &nbsp; Male <br />
-						<input type="radio" class="form-check-input" name="gender"
-							id="gender" value="female" />&nbsp; &nbsp;Female
+					<div class="col">
+						<label for="lname" class="form-label">LastName : </label> <input
+							type="text" class="form-control" id="lname" name="lname"
+							placeholder="Enter Last Name " required /> <span
+							class="text-danger">${lnameError}</span>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+
+					<div class="col">
+						<label for="email" class="form-label">Email : </label>
+						<div class="input-group">
+							<input type="text" name="email" id="email"
+								placeholder="Enter Email Hear" class="form-control"
+								required="required">
+						</div>
+						<span class="text-danger">${emailError}</span>
+					</div>
+				</div>
+				<br>
+
+				<div class="row">
+					<div class="col">
+
+						<label for="pass" class="form-label">Password : </label> <input
+							type="text" id="password" name="password" class="form-control"
+							placeholder="Enter Password" required="required"> <span
+							class="text-danger">${passError}</span>
+					</div>
+					<div class="col">
+						<label for="number" class="form-label">number : </label> <input
+							type="text" class="form-control" id="number" name="number"
+							placeholder="Enter mobile Number" required="required"> <span
+							class="text-danger"></span>
 					</div>
 
+				</div>
 
-					<br> <label for="lang" class="form-label">Languages :</label>
-					<br> <input type="checkbox" id="lang" name="lang"
-						value="gujarati">&nbsp;Gujarati &nbsp; <input
-						type="checkbox" id="lang" name="lang" value="hindi">&nbsp;Hindi
-					&nbsp; <input type="checkbox" id="lang" name="lang" value="English">&nbsp;English
-					<br> <br> <label for="city" class="form-label">City</label>
-					<select name="city" id="city" class="form-select">
-						<option value="Amreli">Amreli</option>
-						<option value="Surat">Surat</option>
-						<option value="Ahamdabad">Ahamdabad</option>
-						<option value="Baroda">Baroda</option>
-					</select> <br> <br>
-					<div class="text-center mt-5">
-						<button class="btn btn-primary" id="submit" onclick="addStudent()">Submit</button>
-						<button class="btn btn-primary" id="update" onclick="updateStudent()">Update</button>
-						<input type="reset" value="Reset" class="btn btn-warning">
-					</div>
 
-				
+				<br /> <label for="gender" class="from-label">Gender</label>
+				<div class="form-checked">
+					<input type="radio" class="form-check-input" name="gender"
+						id="gender" value="male" checked="checked" /> &nbsp; Male <br />
+					<input type="radio" class="form-check-input" name="gender"
+						id="gender" value="female" />&nbsp; &nbsp;Female
+				</div>
+
+
+				<br> <label for="lang" class="form-label">Languages :</label> <br>
+				<input type="checkbox" id="lang" name="lang" value="gujarati">&nbsp;Gujarati
+				&nbsp; <input type="checkbox" id="lang" name="lang" value="hindi">&nbsp;Hindi
+				&nbsp; <input type="checkbox" id="lang" name="lang" value="English">&nbsp;English
+				<br> <br> <label for="city" class="form-label">City</label>
+				<select name="city" id="city" class="form-select">
+					<option value="Amreli">Amreli</option>
+					<option value="Surat">Surat</option>
+					<option value="Ahamdabad">Ahamdabad</option>
+					<option value="Baroda">Baroda</option>
+				</select> <br> <br>
+				<div class="text-center mt-5">
+					<button class="btn btn-primary" id="submit" onclick="addStudent()">Submit</button>
+					<button class="btn btn-primary" id="update"
+						onclick="updateStudent()">Update</button>
+					<input type="reset" value="Reset" class="btn btn-warning">
+				</div>
+
+
 			</div>
 
 

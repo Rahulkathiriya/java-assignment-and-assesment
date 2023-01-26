@@ -2,6 +2,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="a" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +30,26 @@
 	integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
 	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <title>Employee List</title>
+
+<script type="text/javascript">
+
+function deleteEmployee(id){
+	
+	if(confirm("Are you sure want to delete...?")=== true){
+		
+	$.post("update",{id})
+	
+	location.reload();
+			
+}
+}
+
+
+
+
+</script>
+
+
 </head>
 <body>
 
@@ -50,47 +71,40 @@
 			</tr>
 
 
-			<%
-			ArrayList<employee> al = (ArrayList) request.getAttribute("data");
-			for (employee e : al) {
-			%>
+			
 
-			<tr>
-
-				<td><%=e.getId()%></td>
-				<td><%=e.getFname()%></td>
-				<td><%=e.getLname()%></td>
-				<td><%=e.getEmail()%></td>
-				<td><%=e.getNumber()%></td>
-				<td><%=e.getAddress()%></td>
-				<td><%=e.getGender()%></td>
-				<td><%=e.getPassword()%></td>
-				<td><a href="update?uid=<%=e.getId()%>&&action=update"
-					class="btn btn-warning">Update</a></td>
-				<td><a href="update?uid=<%=e.getId()%>&&action=delete"
-					class="btn btn-danger">delete</a></td>
-
-			</tr>
-
+         <a:forEach items="${data}" var="e">
+                     
+                    <tr>
+                             
+                             <td>${e.getId()}</td>
+                             <td>${e.getFname()}</td>
+                             <td>${e.getLname()}</td>
+                             <td>${e.getEmail()}</td>
+                             <td>${e.getNumber()}</td>
+                             <td>${e.getAddress()}</td>                    
+                             <td>${e.getGender()}</td>
+                             <td>${e.getPassword()}</td>
+					<td><a href="update?uid=${e.getId()}"
+						class="btn btn-warning">Update</a></td>
+					<td><a onclick="deleteEmployee(${e.getId()})"
+						class="btn btn-danger">delete</a></td>
+				</tr>
+         </a:forEach>
 
 
-			<%
-			}
-			%>
+
+
+
+
+
+
+
 
 
 
 
 		</table>
-
 	</div>
-
-
-
-
-
-
-
-
 </body>
 </html>
